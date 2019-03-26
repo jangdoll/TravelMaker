@@ -1692,20 +1692,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Mobile Nav body classes */
-body.mobile-nav-active {
-  overflow: hidden;
-}
-
-body.mobile-nav-active #mobile-nav {
-  left: 0;
-}
-
-body.mobile-nav-active #mobile-nav-toggle {
-  color: #fff;
-}
+body.mobile-nav-active {overflow: hidden;}
+body.mobile-nav-active #mobile-nav {left: 0;}
+body.mobile-nav-active #mobile-nav-toggle {color: #fff;}
 /*-------- Start Common Page Style   -------------*/
 .link-nav {margin-top: 10px; margin-bottom: 0px;}
-.about-banner {background: url(../img/hotels-main.jpg) center; background-size: cover;}
+.about-banner {background: url(../img/Hotel/hotels-main.jpg) center; background-size: cover;}
 .about-banner .overlay-bg {background: rgba(4, 9, 30, 0.4);}
 .about-content {margin-top: 70px; padding: 90px 0px; text-align: center;}
 @media (max-width: 767px) {
@@ -1745,13 +1737,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*-------- Start Banner Area ------------*/
-.banner-area {background: url(../img/main-banner.jpg) center; background-size: cover;}
-.banner-area .overlay-bg {background: rgba(4, 9, 30, 0.4);}
+.banner-area {background: url(../img/main/main-banner.jpg) center; background-size: cover;}
+.banner-area .overlay-bg {background: rgba(4, 9, 30, 0.5);}
 @media (max-width: 767px) {
    .banner-area .fullscreen {height: auto !important;}
 }
-.banner-left h6 {text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 2px;}
-.banner-left h1 {margin: 20px 0; font-size: 60px; text-transform: uppercase;}
+.banner-left h6 {text-transform: uppercase; font-weight: 400; font-size: 20px; letter-spacing: 2px;}
+.banner-left h1 {margin: 20px 0; font-size: 75px; text-transform: uppercase;}
 
 @media (max-width: 1199px) {
   .banner-left h1 {font-size: 40px;}
@@ -1765,9 +1757,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .banner-left h1 {font-size: 36px;}
   .banner-left h6 {font-size: 12px;}
 }
-.banner-left p {margin: 20px 0px;}
-.banner-left .primary-btn {background: #f8b600;}
-.banner-left .primary-btn:hover {background: #222; color: #fff;}
+.banner-left p {margin: 20px 0px; font-size: 20px}
 
 @media (max-width: 767px) {
   .banner-left {margin-top: 120px; margin-bottom: 60px;}
@@ -1782,11 +1772,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-destination .thumb {position: relative;}
 .single-destination .thumb img {width: 100%; border-radius: 10px}
 .single-destination .desc {text-align: center; position: absolute; width: 100%; left: 50%; top: 60%; transform: translate(-50%, -50%);}
-.single-destination .desc .price-btn {background: #f8b600; text-align: center; color: #222; padding: 6px 30px; font-size: 14px; font-weight: 600; display: inline-block; margin: 10px; opacity: 0; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s;}
-.single-destination .desc h4 {color: #fff; font-size: 20px}
-.single-destination .desc p {color: #fff; font-size: 14px; font-weight: 300; margin-bottom: 0px;margin-top: 10px}
+.single-destination .desc .price-btn {background: #f8b600; text-align: center; color: #222; padding: 6px 30px; font-size: 14px; font-weight: 600; display: inline-block; margin: 10px 0 20px 0; opacity: 0; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s;}
+.single-destination .desc h4 {color: #fff; font-size: 25px; text-shadow: 1px 2px 2px #800000;}
+.single-destination .desc p {color: #fff; font-size: 14px; font-weight: 300; margin-bottom: 0px; margin-top: 10px; display: none; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; transition: all 0.3s ease 0s;}
 .single-destination:hover .price-btn {opacity: 1;}
 .single-destination:hover .overlay-bg {opacity: 1;}
+.single-destination:hover .desc p {display: inline-block; width: 290px;}
 
 @media (max-width: 991px) {
   .single-destination {margin-bottom: 30px;}
@@ -1835,7 +1826,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------- start home-about area  -------------*/
-.home-about-area .home-about-left {padding-left: 20%;}
+.home-about-area {background: url(../img/main/main_bestTripBackground.png)}
+.home-about-area .home-about-left {padding-left: 10%;}
 @media (max-width: 1366px) {
   .home-about-area .home-about-left {padding-left: 5%;}
 }
@@ -1843,11 +1835,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 1366px) {
   .home-about-area .home-about-left h1 {font-size: 20px;}
 }
-.home-about-area .home-about-left p {max-width: 500px; padding: 20px 0;}
+.home-about-area .home-about-left p {max-width: 500px; padding: 20px 0; color: #000}
+.home-about-area .home-about-left p>span {color: orange; font-weight: bold; font-size: 17px}
 @media (max-width: 991px) {
   .home-about-area .home-about-left p {margin-left: auto; margin-right: auto; display: block;}
 }
-.home-about-area .home-about-left .primary-btn {margin-top: 10px; background: #222; font-size: 14px;}
+.home-about-area .home-about-left .primary-btn {margin-top: 10px; background: #222; font-size: 14px; border-radius: 7px}
 .home-about-area .home-about-left .primary-btn:hover {background: #f8b600;}
 @media (max-width: 991px) {
   .home-about-area .home-about-left {padding: 100px 15px; text-align: center; margin-left: auto; margin-right: auto; display: inline-block;}
@@ -1890,10 +1883,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .card_container .card:after {content: ""; z-index: 99; position: absolute; bottom: -10px; left: 32px; display: block; width: 16px; height: 16px; border-radius: 16px; background-color: #E6E5E1;}
 .card_container .card ul {z-index: 99; position: absolute; left: 39px; top: 5px; list-style-type: none;}
 .card_container .card ul li {width: 2px; height: 2px; border-radius: 2px; margin: 6px 0; background-color: #E6E5E1;}
-.card_container .card h2 {z-index: 99; font-family: "Poppins", sans-serif; position: absolute; bottom: 0; right: 130px; font-size: 60px; font-weight: 700; color: floralwhite;
-  text-shadow: 1px 2px 2px #000;
- -moz-text-shadow: #000;
- -webkit-text-shadow: #000}
+.card_container .card h2 {z-index: 99; font-family: "Poppins", sans-serif; position: absolute; bottom: 0; right: 130px; font-size: 60px; font-weight: 700; color: floralwhite; text-shadow: 1px 2px 2px #000;}
 .card_container .card .fa-arrow-right {z-index: 100; position: absolute; right: 75px; bottom: 25px; font-size: 40px; cursor: pointer;}
 .card_container .card p {z-index: 99; position: absolute; top: 20px; right: 60px; color: #333; opacity: 0.7; font-size: 12px; letter-spacing: 1px; writing-mode: vertical-lr; -webkit-transition: all 0.2s ease; transition: all 0.2s ease;}
 .card_container .card .pic {z-index: 90; width: 400px; height: 200px;
@@ -1907,24 +1897,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 .card_container .card:hover .pic {filter: grayscale(0);}
 .dr { position: absolute;  bottom: 16px; right: 16px; width: 100px;}
 
-.card_container .card2 .pic {
-   background-image: url("../img/airplanes/korean.jpg");}
+.card_container .card2 .pic {background-image: url("../img/airplanes/korean.jpg");}
 .card_container .card2 button { background-color: #2b26c3;}
 
-.card_container .card3 .pic {
-   background-image: url("../img/airplanes/american.jpg");}
+.card_container .card3 .pic {background-image: url("../img/airplanes/american.jpg");}
 .card_container .card3 button { background-color: #735326;}
 
-.card_container .card4 .pic {
-   background-image: url("../img/airplanes/emirates.jpg");}
+.card_container .card4 .pic {background-image: url("../img/airplanes/emirates.jpg");}
 .card_container .card4 button { background-color: #1a4d1a;}
 
-.card_container .card5 .pic {
-   background-image: url("../img/airplanes/singapore.jpg");}
+.card_container .card5 .pic {background-image: url("../img/airplanes/singapore.jpg");}
 .card_container .card5 button { background-color: #1a384d;}
 
-.card_container .card6 .pic {
-   background-image: url("../img/airplanes/qatar.jpg");}
+.card_container .card6 .pic {background-image: url("../img/airplanes/qatar.jpg");}
 .card_container .card6 button { background-color: #4d1a1f;}
 /*--------- end card view -------------*/
 
