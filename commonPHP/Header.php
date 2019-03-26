@@ -30,6 +30,7 @@
             <li><a href="">오락거리</a></li>
             <li><a href="">음식점</a></li>
             <li><a href="">항공사</a></li>
+            <li><a href="">2019 베스트</a></li>
             <li><a href="#">Help Center</a></li>
           </ul>
         </nav>
