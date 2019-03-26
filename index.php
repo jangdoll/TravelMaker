@@ -16,17 +16,14 @@
     <div class="overlay overlay-bg"></div>
     <div class="container">
       <div class="row fullscreen align-items-center justify-content-between">
-        <div class="col-lg-8 col-md-6 banner-left">
-          <!-- <h6 class="text-white">여행을 떠나는데 잘 모르는 당신을 위해</h6> -->
-          <h1 class="text-white main-write">Travel Maker</h1>
-          <p class="text-white main-sub-write">
-            <!-- 메인 글귀 -->
-            TravelMaker는 전세계 여행지의 문화, 풍경, 오락, 날씨 등 방대한 양의 여행정보를 제공합니다. 더이상 항공권 예매에 시간을 들이지 않아도됩니다. TravelMaker는 계획하고 있는 여행에 가장 적합한 항공사를 제공합니다.
-            모든 스토리에는 시작이 있습니다. 당신이 꿈꾸는 여정의 시작을 함께하세요.
-          </p>
-
-        </div>
-
+        <center>
+          <div class="col-lg-8 col-md-6 banner-left">
+            <h1 class="text-white main-write">Travel Maker</h1>
+            <p class="text-white main-sub-write">
+              TravelMaker는 전세계 여행지의 문화, 풍경, 오락, 날씨 등 방대한 양의 여행정보를 제공합니다. 더이상 항공권 예매에 시간을 들이지 않아도됩니다. TravelMaker는 계획하고 있는 여행에 가장 적합한 항공사를 제공합니다. 모든 스토리에는 시작이 있습니다. 당신이 꿈꾸는 여정의 시작을 함께하세요.
+            </p>
+          </div>
+        </center>
       </div>
     </div>
   </section>
@@ -53,7 +50,7 @@
             <div class="desc">
               <a href="#" class="price-btn">보기</a>
               <h4>런던, 영국</h4>
-              <p>화려한 대관식용 보석, 버킹엄 궁전, 캠던 시장 등을<br>만나볼 수 있는 런던은 예술, 패션, 음식, 영국식<br> 에일을 즐길 수 있는 명소입니다. </p>
+              <p>화려한 대관식용 보석, 버킹엄 궁전, 캠던 시장 등을만나볼 수 있는 런던은 예술, 패션, 음식, 영국식 에일을 즐길 수 있는 명소입니다. </p>
             </div>
           </div>
         </div>
@@ -66,7 +63,7 @@
             <div class="desc">
               <a href="#" class="price-btn">보기</a>
               <h4>파리, 프랑스</h4>
-              <p>길가의 카페에서 뺑 오 쇼콜라를 즐기고, 세느강변을<br>걷고 휴식을 취하며, 에펠탑과 개선문 같은 건축물을<br>감상하면서, 여유롭고 활기차게 고급스러운 식사와<br>루브르 박물관 관람 등의 파리 관광을 할 수 있습니다.</p>
+              <p>길가의 카페에서 뺑 오 쇼콜라를 즐기고, 세느강변을 걷고 휴식을 취하며, 여유롭고 활기차게 고급스러운 식사와 파리 관광을 할 수 있습니다.</p>
             </div>
           </div>
         </div>
@@ -79,7 +76,7 @@
             <div class="desc">
               <a href="#" class="price-btn">보기</a>
               <h4>로마, 이탈리아</h4>
-              <p>로마 역시 하루 만에 둘러볼 수 없는 도시입니다.<br>도시는 거대한 실외 박물관, 피아자의 현실적인<br>콜라주,야외 시장, 경탄을 자아내는 유적지로<br>이루어진 전시관처럼 느껴집니다.</p>
+              <p>로마 역시 하루 만에 둘러볼 수 없는 도시입니다. 도시는 경탄을 자아내는 유적지로 이루어진 전시관처럼 느껴집니다.</p>
             </div>
           </div>
         </div>
@@ -375,8 +372,8 @@
             </div>
           </div>
           <div class="single-testimonial item d-flex flex-row">
-           <div class="card_container">
-            <div class="card card5">
+            <div class="card_container">
+              <div class="card card5">
                 <h2>Singapore</h2>
                 <i class="card_arrow fa fa-arrow-right"></i>
                 <p>싱가폴 항공</p>
@@ -411,11 +408,11 @@
                   </button>
                 </a>
               </div>
-          </div>
+            </div>
           </div>
           <div class="single-testimonial item d-flex flex-row">
             <div class="card_container">
-            <div class="card card6">
+              <div class="card card6">
                 <h2>Qatar</h2>
                 <i class="card_arrow fa fa-arrow-right"></i>
                 <p>카타르 항공</p>
@@ -450,7 +447,7 @@
                   </button>
                 </a>
               </div>
-          </div>
+            </div>
           </div>
         </div>
       </div>
@@ -464,32 +461,36 @@
       <div class="row align-items-center justify-content-end">
         <div class="col-lg-6 col-md-12 home-about-left">
           <h1>
-            Did not find your Package? <br>
-            Feel free to ask us. <br>
-            We‘ll make it for you
+            2019년도<br>
+            세계 베스트 여행지<br>
+            <span style="font-size:40px; color: red">Top 20</span>
           </h1>
           <p>
-            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women, our behavior on the job is beyond reproach. inappropriate behavior is often laughed.
+            지난 1년간 여행자들이 검색한 여행지 검색추이를 분석한 결과와 ‘2018년 검색량 순위’, ‘전년 대비 검색량 증가율’, ‘순위 상승 단계’ 등을 고려하여 세계의 베스트 여행지를 선정했습니다.
+            <span>
+              <br><br>지금 당장 수많은 여행자들이 선택한 최고의 여행을 하시겠어요?
+            </span>
           </p>
-          <a href="#" class="primary-btn text-uppercase">request custom price</a>
+          <a href="#" class="primary-btn text-uppercase">2019 베스트 확인하러 가기</a>
         </div>
         <div class="col-lg-6 col-md-12 home-about-right no-padding">
-          <img class="img-fluid" src="img/about-img.jpg" alt="">
+          <img class="img-fluid" src="img/main/main_best_travel.jpg" alt="">
         </div>
       </div>
     </div>
   </section>
   <!-- End home-about Area -->
 
-
+<!-- Todo: 마지막 하단 레이아웃 정리 -->
   <!-- Start blog Area -->
-  <section class="recent-blog-area section-gap">
+<!--  
+   <section class="recent-blog-area section-gap">
     <div class="container">
       <div class="row d-flex justify-content-center">
         <div class="menu-content pb-60 col-lg-9">
           <div class="title text-center">
-            <h1 class="mb-10">Latest from Our Blog</h1>
-            <p>With the exception of Nietzsche, no other madman has contributed so much to human sanity as has.</p>
+            <h1 class="mb-10">Category</h1>
+            <p>Travel Maker의 카테고리를 한 눈에 볼 수 있습니다.<br>원하시는 이미지를 클릭해서 더욱 더 여행에 필요한 정보를 얻어보세요!</p>
           </div>
         </div>
       </div>
@@ -643,7 +644,8 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> 
+-->
   <!-- End recent-blog Area -->
 
   <!-- start footer Area -->
@@ -651,6 +653,8 @@
       include 'commonPHP/footer.php';
    ?>
   <!-- End footer Area -->
+  
+  
   <!-- Script -->
   <script src="js/vendor/jquery-2.2.4.min.js"></script>
   <script src="js/popper.min.js"></script>
